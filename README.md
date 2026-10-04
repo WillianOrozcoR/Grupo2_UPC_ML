@@ -5,9 +5,13 @@ Integrantes
 - Isabel Thalia Mateo Suarez
 
 En el presente proyecto se pretende estimar la probabilidad semanal de eventos sísmicos por medio de redes neuronales artificiales a partir de data histórica e instrumental del Instituto Geofísico del Peró.
+
 El objetivo general es: Determinar la eficacia de un modelo de red neuronal artificial para el pronóstico probabilistico semanal de eventos sísmicos de magnitud igual o superior a 4.0 para el año 2026 en Perú.
+
 Metodología:
-- Recolección de datos mediante consulta y extracción de registros del catálogo sísmico histórico del Perú, disponible en la fuente oficial del Instituto Geofísico del Perú (IGP): Fecha, Latitud, Longitud, Profundidad, Magnitud Mw.
+- Recolección de datos mediante consulta y extracción de registros del catálogo sísmico histórico del Perú, disponible en la fuente oficial del Instituto Geofísico del Perú (IGP):
+- 1,098 datos sísmicos históricos de 1552 a 1959 (fecha, hora, latitud, longitud, profundidad, magnitud mb, magnitud Ms, magnitud Mw)
+- 25,758 datos sísmicos instrumentales de 1960 a actualidad (fecha, hora, latitud, longitud, profundidad, magnitud M)
 - Consolidación en un entorno de procesamiento computacional, verificando la integridad básica de los campos y la consistencia mínima de los registros.
 - Tratamiento y análisis de datos a través de una fase de limpieza, depuración, discretización espacial y construcción de secuencias temporales.
 - Definición del objetivo de estimación (horizonte futuro de 7 días)
