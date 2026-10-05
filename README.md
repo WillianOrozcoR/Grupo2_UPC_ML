@@ -1,5 +1,5 @@
 # Grupo2_UPC_ML
-Integrantes
+## Integrantes
 - Willian Orestes Orozco Ramírez; 
 - Nilton Yens Huanacuni Quispe; 
 - Isabel Thalia Mateo Suarez
@@ -8,7 +8,7 @@ En el presente proyecto se pretende estimar la probabilidad semanal de eventos s
 
 El objetivo general es: Determinar la eficacia de un modelo de red neuronal artificial para el pronóstico probabilistico semanal de eventos sísmicos de magnitud igual o superior a 4.0 para el año 2026 en Perú.
 
-Metodología:
+## Metodología:
 - Recolección de datos mediante consulta y extracción de registros del catálogo sísmico histórico del Perú, disponible en la fuente oficial del Instituto Geofísico del Perú (IGP):
 - 1,098 datos sísmicos históricos de 1552 a 1959 (fecha, hora, latitud, longitud, profundidad, magnitud mb, magnitud Ms, magnitud Mw)
 - 25,758 datos sísmicos instrumentales de 1960 a actualidad (fecha, hora, latitud, longitud, profundidad, magnitud M)
